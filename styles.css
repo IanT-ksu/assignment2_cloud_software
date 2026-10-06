@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    margin: 1;
+    font-family: 'Playfair Display', 'Times New Roman', 'Georgia', serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: green;
+    padding: 15px 20px;
+}
+
+.columns {
+    display: flex;
+    background-color: rgb(89, 181, 87);
+    color: rgb(255, 241, 241);
+    justify-content: space-between;
+}
+
+.columns-left {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.columns-left img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.column-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.column-right img {
+    width: 140px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.user-form {
+    font-family: 'Lora', serif;
+}
+
+.user-form fieldset {
+    background-color: rgb(89, 181, 87);
+}
+
+.user-form legend {
+    color: rgb(255, 241, 241);
+    background-color: green;
+    border-radius: 4px;
+}
+
+.form-btns button {
+    font-family: 'Lora', serif;
+    color: rgb(255, 241, 241);
+    background-color: green;
+    border-color: black;
+    border-radius: 4px;
+    padding: 6px 18px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(163, 96, 38);
+    color: white;
+   
+    legend {
+        background-color: rgb(107, 63, 24);
+        border-radius: 4px;
+        font-family: 'Lora', serif;
+    }
+}
